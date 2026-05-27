@@ -1,0 +1,40 @@
+<model-viewer src="Celula´7677e.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1">
+    <button class="Hotspot" slot="hotspot-1" data-position="1.307825481141107m 1.638188418700836m 0.20489072925575483m" data-normal="0.8421445527605569m 0.5361733099461141m 0.057538977720759686m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Nucléolo; Sirve para: a)Fabricar los ribosomas
+            b)Expulsar el agua </div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="1.1082901505347749m 1.8621055733215206m 0.17920150877093277m" data-normal="0.06258063116965855m 0.9877770035164524m -0.14275943375646188m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Núcleo; Almacena el ADN
+            Verdadero/Falso</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="1.5493253723415439m 1.4712589910791787m -0.132219301090153m" data-normal="0.4269924513981917m 0.14492091340079186m -0.8925667343723065m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Retículo Endoplasmatico Rugoso; Deja pasar las proteinas defectuosas a la célula Verdadero/Falso</div>
+    </button><button class="Hotspot" slot="hotspot-7" data-position="1.8316125279746696m 1.4842873923372222m 0.20518866879341702m" data-normal="0.7045876107089564m 0.0512249286009613m -0.7077657137254324m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Retículo Endoplasmatico Liso</div>
+    </button><button class="Hotspot" slot="hotspot-9" data-position="1.5014214091353721m 1.4526856888094275m 0.6421688978715577m" data-normal="0.6198332307527237m 0.7680964084375413m 0.1607316813823291m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Aparato de Golgi; Recibe, prepara y envía los productos de la celula Verdadero/Falso</div>
+    </button><button class="Hotspot" slot="hotspot-10" data-position="1.9260189161376882m 1.4816584614804047m 0.5573143810532455m" data-normal="0.7641386877784521m -0.27178892780472497m 0.5849981577432388m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Lisosoma; Se forman a partir de pedazos que se desprenden del núcleo Verdadero/Falso</div>
+    </button><button class="Hotspot" slot="hotspot-11" data-position="1.0307878762250593m 2.051634171250036m 0.041334964922783324m" data-normal="0.993402706424296m -0.07858110016092064m 0.0835228924689723m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Vacuola</div>
+    </button><button class="Hotspot" slot="hotspot-12" data-position="1.039343393153272m 1.5993527567963348m -0.3000597983034331m" data-normal="0.7792661508544847m 0.4686332168286772m -0.41608553714019175m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Centriolos; Ayudan a: a)Repartir el ADN en partes iguales. b)Producir la energía de la celula</div>
+    </button><button class="Hotspot" slot="hotspot-13" data-position="1.0135031271404065m 2.0095626036288703m 0.5155007947391236m" data-normal="0.004968138995607813m 0.9315796453290257m 0.36350334524398437m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Mitocondria; Requieren oxígeno para generar energía Verdadero/ Falso</div>
+    </button><button class="Hotspot" slot="hotspot-15" data-position="1.1350232299149958m 1.4304171737440807m 0.5892069157451477m" data-normal="-0.13438551154498543m 0.9833142639507237m -0.12261155164925892m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Microtúbulos; Sirven como caminos para mover los organelos Verdadero/Falso</div>
+    </button><button class="Hotspot" slot="hotspot-16" data-position="1.019376883613856m 1.6385434496313964m 0.8661862101874875m" data-normal="0.9222120894509691m -0.2880770273486278m 0.2579466774053426m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Ribosoma</div>
+    </button><button class="Hotspot" slot="hotspot-17" data-position="1.025335051950444m 1.4223183770145793m 0.9182320053058035m" data-normal="0.04961151233402608m 0.998039723170419m -0.0381498206790603m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Citoplasma; Sirve para transportar sustancias Verdadero/Falso</div>
+    </button><button class="Hotspot" slot="hotspot-21" data-position="2.0777462067704313m 1.4179603522415212m 0.17460435049610668m" data-normal="0.6408806597470124m 0.7651870838903557m -0.06132460036240164m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Membrana Plasmatica; Permite el paso de cualquier sustancia sin filtrar Verdadero/Falso</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
