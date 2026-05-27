@@ -11,3 +11,14 @@ const onProgress = (event) => {
   }
 };
 document.querySelector('model-viewer').addEventListener('progress', onProgress);
+document.querySelector('model-viewer').addEventListener('load', () => {
+  const spots = document.querySelectorAll('.Hotspot');
+  spots.forEach(spot => {
+    spot.addEventListener('click', e => {
+      e.stopPropagation();
+      const isActive = spot.classList.contains('active');
+      spots.forEach(s => s.classList.remove('active'));
+      if (!isActive) spot.classList.add('active');
+    });
+  });
+});
